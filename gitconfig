@@ -1,0 +1,9 @@
+[user]
+	name = Kivanc Cakmak
+	email = kivanc.cakmak@airties.com 
+[push]
+	default = simple
+[core]
+    excludesfile = ~/.gitignore
+[credential]
+	helper = store
