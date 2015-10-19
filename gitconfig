@@ -7,3 +7,6 @@
     excludesfile = ~/.gitignore
 [credential]
 	helper = store
+[alias]
+    hinit = "!git init; git config user.email "kivanccakmak@gmail.com""
+    home = "git config user.email "kivanccakmak@gmail.com""
