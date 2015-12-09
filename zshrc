@@ -1,4 +1,4 @@
-# Path to your oh-my-zsh installation.
+# Path to your oh-my-zsh installation.  export ZSH=/home/kivi/.oh-my-zsh
 export ZSH=/home/kivi/.oh-my-zsh
 
 # Set name of the theme to load.
@@ -92,6 +92,6 @@ alias tmux="tmux -2"
 # Pyton tab comletion
 export PYTHONSTARTUP=~/.pythonrc
 
-alias dock="docker run -i -t --user=air-builder -v $PWD:/project my-builder /bin/bash"
+alias dock='docker run -i -t --user=air-builder -v "$PWD":/project my-builder /bin/bash'
 
 #cat ~/.mona | cowsay -n
