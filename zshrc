@@ -91,3 +91,7 @@ alias tmux="tmux -2"
 
 # Pyton tab comletion
 export PYTHONSTARTUP=~/.pythonrc
+
+alias docker=docker run -i -t --user=air-builder -v $PWD:/project my-builder /bin/bash
+
+#cat ~/.mona | cowsay -n

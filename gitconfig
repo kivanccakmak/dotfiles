@@ -1,12 +1,15 @@
 [user]
 	name = Kivanc Cakmak
-	email = kivanc.cakmak@airties.com 
+	email = kivanc.cakmak@airties.com
 [push]
 	default = simple
 [core]
     excludesfile = ~/.gitignore
+	editor = vim
 [credential]
 	helper = store
 [alias]
     hinit = "!git init; git config user.email "kivanccakmak@gmail.com""
     home = "git config user.email "kivanccakmak@gmail.com""
+[references]
+	path = /opt/GIT_REFERENCE_REPOSITORIES
