@@ -94,4 +94,6 @@ export PYTHONSTARTUP=~/.pythonrc
 
 alias dock='docker run -i -t --user=air-builder -v "$PWD":/project my-builder /bin/bash'
 
+alias py="ptpython"
+
 #cat ~/.mona | cowsay -n
