@@ -96,4 +96,14 @@ alias dock='docker run -i -t --user=air-builder -v "$PWD":/project my-builder /b
 
 alias py="ptpython"
 
+alias tmux="tmux -2"
+
+alias ta='tmux attach -t'
+
+alias ts='tmux new-session -s'
+
+alias tl='tmux list-sessions'
+
+alias ..g='cd "$(git rev-parse --show-toplevel)"'
+
 #cat ~/.mona | cowsay -n
