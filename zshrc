@@ -107,3 +107,5 @@ alias tl='tmux list-sessions'
 alias ..g='cd "$(git rev-parse --show-toplevel)"'
 
 #cat ~/.mona | cowsay -n
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
