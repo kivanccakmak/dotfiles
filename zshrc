@@ -109,3 +109,18 @@ alias ..g='cd "$(git rev-parse --show-toplevel)"'
 #cat ~/.mona | cowsay -n
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+
+PROMPT="
+%{$terminfo[bold]$fg[blue]%}#%{$reset_color%} \
+%(#,%{$bg[yellow]%}%{$fg[black]%}%n%{$reset_color%},%{$fg[cyan]%}%n) \
+%{$fg[white]%}at \
+%{$fg[green]%}%m \
+%{$fg[white]%}in \
+%{$terminfo[bold]$fg[yellow]%}%~%{$reset_color%}\
+${hg_info}\
+${git_info}\
+ \
+%{$fg[white]%}[%*]\
+ 
+%{$terminfo[bold]$fg[red]%}$ %{$reset_color%}"
