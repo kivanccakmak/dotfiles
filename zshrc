@@ -1,5 +1,5 @@
-# Path to your oh-my-zsh installation.  export ZSH=/home/kivi/.oh-my-zsh
-export ZSH=/home/kivi/.oh-my-zsh
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -50,7 +50,7 @@ plugins=(git colored-man-pages command-not-found sudo)
 
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+export PATH="$HOME/.local/bin:$HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -124,3 +124,5 @@ ${git_info}\
 %{$fg[white]%}[%*]\
  
 %{$terminfo[bold]$fg[red]%}$ %{$reset_color%}"
+# yaver-node-path
+export PATH="$HOME/.local/node-current/bin:$HOME/.npm-global/bin:$PATH"

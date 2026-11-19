@@ -1,6 +1,6 @@
 [user]
 	name = Kivanc Cakmak
-	email = kivanc.cakmak@airties.com
+	email = kivanccakmak@gmail.com
 [push]
 	default = simple
 [core]
@@ -13,3 +13,9 @@
     home = "git config user.email "kivanccakmak@gmail.com""
 [references]
 	path = /opt/GIT_REFERENCE_REPOSITORIES
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/kivanc/.local/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/home/kivanc/.local/bin/gh auth git-credential
